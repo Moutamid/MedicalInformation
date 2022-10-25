@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MedicineActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cardiovascular"
+                android:fontFamily="@font/montserrat"
+                android:textSize="18sp"
+                android:background="@drawable/spinner_bg"
+                android:textColor="@color/white"
+                android:padding="12dp"
+                android:layout_margin="12dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/CardiovascularRc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:background="@drawable/spinner_bg"
+                android:backgroundTint="#e5e5e5"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dermatology"
+                android:fontFamily="@font/montserrat"
+                android:textSize="18sp"
+                android:background="@drawable/spinner_bg"
+                android:textColor="@color/white"
+                android:padding="12dp"
+                android:layout_margin="12dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/DermatologyRc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:background="@drawable/spinner_bg"
+                android:backgroundTint="#e5e5e5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Emergency Medicine"
+                android:fontFamily="@font/montserrat"
+                android:textSize="18sp"
+                android:background="@drawable/spinner_bg"
+                android:textColor="@color/white"
+                android:padding="12dp"
+                android:layout_margin="12dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/EmergencyRc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:background="@drawable/spinner_bg"
+                android:backgroundTint="#e5e5e5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Endocrinology, Metabolism, and Nutrition"
+                android:fontFamily="@font/montserrat"
+                android:textSize="18sp"
+                android:background="@drawable/spinner_bg"
+                android:textColor="@color/white"
+                android:padding="12dp"
+                android:layout_margin="12dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/EndocrinologyRc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:background="@drawable/spinner_bg"
+                android:backgroundTint="#e5e5e5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gastroenterology"
+                android:fontFamily="@font/montserrat"
+                android:textSize="18sp"
+                android:background="@drawable/spinner_bg"
+                android:textColor="@color/white"
+                android:padding="12dp"
+                android:layout_margin="12dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/GastroenterologyRc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:background="@drawable/spinner_bg"
+                android:backgroundTint="#e5e5e5" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
