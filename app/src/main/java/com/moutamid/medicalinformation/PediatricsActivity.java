@@ -24,9 +24,9 @@ public class PediatricsActivity extends AppCompatActivity {
         getSupportActionBar().setTitle("Pediatrics");
 
         cardi = findViewById(R.id.CardioRc);
-        dermo = findViewById(R.id.DermatologyRc);
+        dermo = findViewById(R.id.DermatoRc);
         genat = findViewById(R.id.GeneticRc);
-        endo = findViewById(R.id.EndocrinologyRc);
+        endo = findViewById(R.id.MetabolismRc);
         gasto = findViewById(R.id.GastroenRc);
 
 

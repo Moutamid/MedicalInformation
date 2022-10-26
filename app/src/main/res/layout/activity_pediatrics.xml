@@ -51,7 +51,7 @@
                 android:textSize="18sp" />
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/DermatologyRc"
+                android:id="@+id/DermatoRc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="12dp"
@@ -70,7 +70,7 @@
                 android:textSize="18sp" />
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/EndocrinologyRc"
+                android:id="@+id/MetabolismRc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="12dp"
