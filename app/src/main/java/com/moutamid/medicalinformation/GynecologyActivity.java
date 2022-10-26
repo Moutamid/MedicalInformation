@@ -55,12 +55,12 @@ public class GynecologyActivity extends AppCompatActivity {
         ArrayList<String> list = new ArrayList<>();
         ListAdapter adapter;
 
-        list.add("Abscess Of Liver");
-        list.add("Acute Gastric Dilation");
-        list.add("Acute Hepatitis A");
-        list.add("Acute Hepatitis B");
-        list.add("Acute Hepatitis C");
-        list.add("Acute Hepatitis E");
+        list.add("Adrenal Pseudohermaphoroditism");
+        list.add("Amenorrhea");
+        list.add("Anovulation");
+        list.add("Bacterial Vaginosis");
+        list.add("Cervicitis");
+        list.add("Hirsuitism");
 
         adapter = new ListAdapter(GynecologyActivity.this, list);
         gasto.setAdapter(adapter);
@@ -70,11 +70,11 @@ public class GynecologyActivity extends AppCompatActivity {
         ArrayList<String> list = new ArrayList<>();
         ListAdapter adapter;
 
-        list.add("Acromegaly");
-        list.add("Addison's Disease");
-        list.add("Carcinoid Syndrome");
-        list.add("Cushing's Disease");
-        list.add("Nelson Syndrome");
+        list.add("Abnormal Labor");
+        list.add("Anemia In Pregnancy");
+        list.add("Antiphospholipid Syndrome And Pregnancy");
+        list.add("Asthma In Pregnancy");
+        list.add("Breech Presentation");
 
         adapter = new ListAdapter(GynecologyActivity.this, list);
         endo.setAdapter(adapter);
@@ -84,11 +84,11 @@ public class GynecologyActivity extends AppCompatActivity {
         ArrayList<String> list = new ArrayList<>();
         ListAdapter adapter;
 
-        list.add("Acute Respiratory Failure");
-        list.add("Addisonian Crisis");
-        list.add("Cardiac Arrest");
-        list.add("Diabetic Coma");
-        list.add("Thyroid Crysis");
+        list.add("Cervical Carcinoma");
+        list.add("Choriocarcinoma");
+        list.add("Endometrial Cancer");
+        list.add("Gestational Trophoblastic Diseases");
+        list.add("Ovarian Cancer");
 
         adapter = new ListAdapter(GynecologyActivity.this, list);
         emerg.setAdapter(adapter);
@@ -98,11 +98,11 @@ public class GynecologyActivity extends AppCompatActivity {
         ArrayList<String> list = new ArrayList<>();
         ListAdapter adapter;
 
-        list.add("Acrodermatitis Enteropathic");
-        list.add("Allergic Dermatitis");
-        list.add("Erythrasma");
-        list.add("Black Piedra");
-        list.add("Nevus");
+        list.add("Chronic Pelvic Pain");
+        list.add("Dysfunctional Uterine Bleeding");
+        list.add("Dysmenorrhea");
+        list.add("Early Pregnancy Loss");
+        list.add("Menorrhagia");
 
         adapter = new ListAdapter(GynecologyActivity.this, list);
         dermo.setAdapter(adapter);
@@ -112,11 +112,11 @@ public class GynecologyActivity extends AppCompatActivity {
         ArrayList<String> list = new ArrayList<>();
         ListAdapter adapter;
 
-        list.add("Acrocyanosis");
-        list.add("Acroparasthesis");
-        list.add("Acute Myocarditis");
-        list.add("Cardiomegaly");
-        list.add("Dressler Syndrome");
+        list.add("Cord Prolapse");
+        list.add("Fetal Growth Restriction");
+        list.add("Macrosomia");
+        list.add("Multifetal Pregnancy");
+        list.add("Rh Incompatibility");
 
         adapter = new ListAdapter(GynecologyActivity.this, list);
         cardi.setAdapter(adapter);

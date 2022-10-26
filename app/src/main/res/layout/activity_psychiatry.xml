@@ -27,12 +27,12 @@
                 android:background="@drawable/spinner_bg"
                 android:fontFamily="@font/montserrat"
                 android:padding="12dp"
-                android:text="Breast"
+                android:text="Anxiety Disorder"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/CardiovascularRc"
+                android:id="@+id/AnxietyRc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="12dp"
@@ -46,12 +46,12 @@
                 android:background="@drawable/spinner_bg"
                 android:fontFamily="@font/montserrat"
                 android:padding="12dp"
-                android:text="Colorectal"
+                android:text="Delirium, Dementia, And Amnestic And Other Cognitive Disorders"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/DermatologyRc"
+                android:id="@+id/DeliriumRc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="12dp"
@@ -65,7 +65,7 @@
                 android:background="@drawable/spinner_bg"
                 android:fontFamily="@font/montserrat"
                 android:padding="12dp"
-                android:text="Endocrine"
+                android:text="Disorder Of Infancy, Childhood, Or Adolescence"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 
@@ -84,7 +84,7 @@
                 android:background="@drawable/spinner_bg"
                 android:fontFamily="@font/montserrat"
                 android:padding="12dp"
-                android:text="General"
+                android:text="Eating Disorders"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 
@@ -103,7 +103,7 @@
                 android:background="@drawable/spinner_bg"
                 android:fontFamily="@font/montserrat"
                 android:padding="12dp"
-                android:text="Hepato-Pancreatico-Biliary"
+                android:text="Mood Disorder"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 

@@ -23,8 +23,8 @@ public class PsychiatryActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("Psychiatry");
 
-        cardi = findViewById(R.id.CardiovascularRc);
-        dermo = findViewById(R.id.DermatologyRc);
+        cardi = findViewById(R.id.AnxietyRc);
+        dermo = findViewById(R.id.DeliriumRc);
         emerg = findViewById(R.id.EmergencyRc);
         endo = findViewById(R.id.EndocrinologyRc);
         gasto = findViewById(R.id.GastroenterologyRc);
@@ -56,12 +56,8 @@ public class PsychiatryActivity extends AppCompatActivity {
         ArrayList<String> list = new ArrayList<>();
         ListAdapter adapter;
 
-        list.add("Abscess Of Liver");
-        list.add("Acute Gastric Dilation");
-        list.add("Acute Hepatitis A");
-        list.add("Acute Hepatitis B");
-        list.add("Acute Hepatitis C");
-        list.add("Acute Hepatitis E");
+        list.add("Bipolar Disorder");
+        list.add("Depressive Disorder");
 
         adapter = new ListAdapter(PsychiatryActivity.this, list);
         gasto.setAdapter(adapter);
@@ -71,11 +67,8 @@ public class PsychiatryActivity extends AppCompatActivity {
         ArrayList<String> list = new ArrayList<>();
         ListAdapter adapter;
 
-        list.add("Acromegaly");
-        list.add("Addison's Disease");
-        list.add("Carcinoid Syndrome");
-        list.add("Cushing's Disease");
-        list.add("Nelson Syndrome");
+        list.add("Anorexia Nervosa");
+        list.add("Bulimia Nervosa");
 
         adapter = new ListAdapter(PsychiatryActivity.this, list);
         endo.setAdapter(adapter);
@@ -85,11 +78,8 @@ public class PsychiatryActivity extends AppCompatActivity {
         ArrayList<String> list = new ArrayList<>();
         ListAdapter adapter;
 
-        list.add("Acute Respiratory Failure");
-        list.add("Addisonian Crisis");
-        list.add("Cardiac Arrest");
-        list.add("Diabetic Coma");
-        list.add("Thyroid Crysis");
+        list.add("Attention-deficit And Disruptive Behaviour Disorders");
+        list.add("Tic Disorders");
 
         adapter = new ListAdapter(PsychiatryActivity.this, list);
         emerg.setAdapter(adapter);
@@ -99,11 +89,9 @@ public class PsychiatryActivity extends AppCompatActivity {
         ArrayList<String> list = new ArrayList<>();
         ListAdapter adapter;
 
-        list.add("Acrodermatitis Enteropathic");
-        list.add("Allergic Dermatitis");
-        list.add("Erythrasma");
-        list.add("Black Piedra");
-        list.add("Nevus");
+        list.add("Amnestic Disorders");
+        list.add("Delirium");
+        list.add("Dementia");
 
         adapter = new ListAdapter(PsychiatryActivity.this, list);
         dermo.setAdapter(adapter);
@@ -113,11 +101,11 @@ public class PsychiatryActivity extends AppCompatActivity {
         ArrayList<String> list = new ArrayList<>();
         ListAdapter adapter;
 
-        list.add("Acrocyanosis");
-        list.add("Acroparasthesis");
-        list.add("Acute Myocarditis");
-        list.add("Cardiomegaly");
-        list.add("Dressler Syndrome");
+        list.add("Acute Stress Disorder");
+        list.add("Social Phobia");
+        list.add("Specific Phobia");
+        list.add("Panic Disorder Without Agoraphobia");
+        list.add("Generalized Anxiety Disorder");
 
         adapter = new ListAdapter(PsychiatryActivity.this, list);
         cardi.setAdapter(adapter);

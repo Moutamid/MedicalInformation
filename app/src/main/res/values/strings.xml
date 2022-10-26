@@ -5,29 +5,14 @@
 
    <string name="Acrocyanosis_history">Acrocyanosis is persistent blue or cyanotic discoloration of the extremities, most commonly occurring in the hands, although it also occurs in the feet and distal parts of face. Although described over 100 years ago and not uncommon in practice, the nature of this phenomenon is still uncertain.</string>
 
-    <string-array name="Acrocyanosis_titles">
-        <item>Etiology:</item>
-        <item>Clinical Features:</item>
-        <item>Management:</item>
-        <item>Epidemiology:</item>
-        <item>Pathophysiology:</item>
-    </string-array>
-
-    <string-array name="Acrocyanosis_desc">
-        <item>It can be both primary and secondary to psychiatric, neurologic, autoimmune, infective, metabolic and other causes. The existing hypothesis suggests the prevailing role of vasospastic reaction over possible blood rheology impairment.</item>
-        <item>Acrocyanosis is an uncommon condition. It usually presents with coolness and violaceous dusky discolorations of hands and less frequently the feet. Other peripheral part like ear, nose, lips and nipple can also be affected.</item>
-        <item>There is no standard and curative medical or surgical treatment of acrocyanosis. In mild cases, it is unnecessary to give any drug treatment. Life style modification, dietary and hygiene counseling, avoidance of cold and reassurance that the bluish skin discoloration does not indicate any serious illness is all that is necessary.</item>
-        <item>Incidence of acrocyanosis is not definitely known as there is no such report. It is more prevalent in children and young adults usually in persons younger than 30 years old. Risk factors of acrocyanosis are cold climate, outdoor occupation, low body mass index (BMI).</item>
-        <item>To date, some aspects of acrocyanosis pathophysiology remain mostly unknown. The existing hypothesis suggests the prevailing role of vasospastic reaction over possible blood rheology impairment.</item>
-    </string-array>
-
-    <!--<string name="Acroparesthesia_history">The condition was named acroparesthesia in 1890 and, in the following years, was accepted as a disease in medical textbooks. Almost all of the patients with acroparesthesia, described at the end of the nineteenth and the first half of the twentieth century, would today be diagnosed with idiopathic CTS.</string>
+    <string name="Acroparesthesia_history">The condition was named acroparesthesia in 1890 and, in the following years, was accepted as a disease in medical textbooks. Almost all of the patients with acroparesthesia, described at the end of the nineteenth and the first half of the twentieth century, would today be diagnosed with idiopathic CTS.</string>
 
     <string name="Acute_Myocarditis_history">Patients with myocarditis have a clinical history of acute decompensation of heart failure, but they have no other underlying cardiac dysfunction or have low cardiac risk. The diagnosis is usually presumptive, based on patient demographics and the clinical course (eg, spontaneous recovery following supportive care).</string>
 
     <string name="Cardiomegaly_history">Cardiomegaly (sometimes megacardia or megalocardia) is a medical condition in which the heart is enlarged. As such, it is more commonly referred to simply as "having an enlarged heart". It is usually the result of underlying conditions that make the heart work harder, such as obesity, heart valve disease, high blood pressure (hypertension), and coronary artery disease. Cardiomyopathy is also associated with cardiomegaly.</string>
 
-    <string name="Dressler_history">Not to be confused with DRESS Syndrome. <b>Dressler syndrome</b> is a secondary form of pericarditis that occurs in the setting of injury to the heart or the pericardium (the outer lining of the heart). It consists of fever, pleuritic pain, pericarditis and/or a pericardial effusion. Dressler syndrome is also known as postmyocardial infarction syndrome and the term is sometimes used to refer to post-pericardiotomy pericarditis. It was first characterized by William Dressler at Maimonides Medical Center in 1956. It should not be confused with the Dressler's syndrome of haemoglobinuria named for Lucas Dressler, who characterized it in 1854.</string>
+    <string name="Dressler_history">Not to be confused with DRESS Syndrome. <b>Dressler syndrome</b> is a secondary form of pericarditis that occurs in the setting of injury to the heart or the pericardium (the outer lining of the heart). It consists of fever, pleuritic pain, pericarditis and/or a pericardial effusion. Dressler syndrome is also known as postmyocardial infarction syndrome and the term is sometimes used to refer to post-pericardiotomy pericarditis. It was first characterized by William Dressler at Maimonides Medical Center in 1956. It should not be confused with the Dressler\'s syndrome of haemoglobinuria named for Lucas Dressler, who characterized it in 1854.</string>
 
--->
+
+
 </resources>

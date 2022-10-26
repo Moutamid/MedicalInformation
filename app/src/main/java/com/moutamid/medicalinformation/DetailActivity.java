@@ -40,7 +40,7 @@ public class DetailActivity extends AppCompatActivity {
             history = getResources().getString(R.string.Acrocyanosis_history);
             historyText.setText(history);
         }
-        /*if (Actiontitle.equals("Acroparesthesia")){
+        if (Actiontitle.equals("Acroparesthesia")){
             history = getResources().getString(R.string.Acroparesthesia_history);
             historyText.setText(history);
         }
@@ -55,7 +55,7 @@ public class DetailActivity extends AppCompatActivity {
         if (Actiontitle.equals("Dressler Syndrome")){
             history = getResources().getString(R.string.Dressler_history);
             historyText.setText(history);
-        }*/
+        }
 
     }
 
