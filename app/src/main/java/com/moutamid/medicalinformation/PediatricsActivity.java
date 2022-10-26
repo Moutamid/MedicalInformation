@@ -27,7 +27,7 @@ public class PediatricsActivity extends AppCompatActivity {
         dermo = findViewById(R.id.DermatologyRc);
         genat = findViewById(R.id.GeneticRc);
         endo = findViewById(R.id.EndocrinologyRc);
-        gasto = findViewById(R.id.GastroenterologyRc);
+        gasto = findViewById(R.id.GastroenRc);
 
 
         cardi.setHasFixedSize(false);

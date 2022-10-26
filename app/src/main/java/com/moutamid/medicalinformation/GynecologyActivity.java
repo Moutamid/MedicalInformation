@@ -23,11 +23,11 @@ public class GynecologyActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("Gynecology & Obstetrics");
 
-        cardi = findViewById(R.id.CardiovascularRc);
-        dermo = findViewById(R.id.DermatologyRc);
-        emerg = findViewById(R.id.EmergencyRc);
-        endo = findViewById(R.id.EndocrinologyRc);
-        gasto = findViewById(R.id.GastroenterologyRc);
+        cardi = findViewById(R.id.FetalRc);
+        dermo = findViewById(R.id.GeneralRc);
+        emerg = findViewById(R.id.OncologyRc);
+        endo = findViewById(R.id.ObstetricsRc);
+        gasto = findViewById(R.id.SexualRc);
 
 
         cardi.setHasFixedSize(false);

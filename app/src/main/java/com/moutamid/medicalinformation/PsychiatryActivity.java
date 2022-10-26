@@ -25,9 +25,9 @@ public class PsychiatryActivity extends AppCompatActivity {
 
         cardi = findViewById(R.id.AnxietyRc);
         dermo = findViewById(R.id.DeliriumRc);
-        emerg = findViewById(R.id.EmergencyRc);
-        endo = findViewById(R.id.EndocrinologyRc);
-        gasto = findViewById(R.id.GastroenterologyRc);
+        emerg = findViewById(R.id.InfancyRc);
+        endo = findViewById(R.id.EatingRc);
+        gasto = findViewById(R.id.MoodRc);
 
 
         cardi.setHasFixedSize(false);

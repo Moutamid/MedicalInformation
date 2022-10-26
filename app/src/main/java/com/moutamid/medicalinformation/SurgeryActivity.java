@@ -24,11 +24,11 @@ public class SurgeryActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("Surgery");
 
-        cardi = findViewById(R.id.CardiovascularRc);
-        dermo = findViewById(R.id.DermatologyRc);
-        emerg = findViewById(R.id.EmergencyRc);
-        endo = findViewById(R.id.EndocrinologyRc);
-        gasto = findViewById(R.id.GastroenterologyRc);
+        cardi = findViewById(R.id.BreastRc);
+        dermo = findViewById(R.id.ColorectalRc);
+        emerg = findViewById(R.id.EndocrineRc);
+        endo = findViewById(R.id.GeneralRc);
+        gasto = findViewById(R.id.HepatoRc);
 
 
         cardi.setHasFixedSize(false);
